@@ -1,51 +1,53 @@
 # CC Model Switcher
 
-A minimal GUI tool for switching [Claude Code](https://docs.anthropic.com/en/docs/claude-code) API provider configurations.
+一个简洁的 GUI 工具，用于快速切换 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的 API 配置。
+
+[English](README_EN.md)
 
 <p align="center">
-  <img src="screenshot.png" alt="CC Model Switcher Screenshot" width="700">
+  <img src="screenshot.png" alt="CC Model Switcher 截图" width="700">
 </p>
 
-## Features
+## 功能特点
 
-- **Multiple Profiles** — Save and switch between different API configurations
-- **Custom Naming** — Name your profiles however you like
-- **Secure** — API keys stored locally, masked by default
-- **Auto Backup** — Backs up existing settings before applying
-- **Cross-Platform** — Works on Windows, macOS, and Linux
-- **Dark Theme** — Modern monochrome interface
+- **多配置管理** — 保存并切换多个 API 配置
+- **自定义命名** — 随意命名你的配置
+- **安全存储** — API Key 本地存储，默认隐藏显示
+- **自动备份** — 应用前自动备份原有设置
+- **跨平台** — 支持 Windows、macOS、Linux
+- **深色主题** — 现代简约的黑白灰界面
 
-## Installation
+## 安装
 
-**Requirements:** Python 3.8+ with tkinter
+**环境要求：** Python 3.8+ 以及 tkinter
 
 ```bash
-# Clone the repository
+# 克隆仓库
 git clone https://github.com/jlmaoju/cc-model-switcher.git
 cd cc-model-switcher
 
-# Run
+# 运行
 python api_switcher.py
 ```
 
-On Windows, you can double-click `run.bat`.
+Windows 用户可以直接双击 `run.bat` 运行。
 
-## Usage
+## 使用方法
 
-On first run, an example profile is created automatically. You can edit it or create new ones.
+首次运行会自动创建一个示例配置，你可以编辑它或创建新的配置。
 
-1. Click **+** to create a new profile
-2. Enter your API configuration:
-   - **Name** — A label for this profile
-   - **Base URL** — Your API endpoint
-   - **API Key** — Your API key
-   - **Model Mappings** — Optional model name overrides
-3. Click **Apply** to save and activate the configuration
-4. **Restart Claude Code** for changes to take effect
+1. 点击 **+** 创建新配置
+2. 填写配置信息：
+   - **Name** — 配置名称
+   - **Base URL** — API 端点地址
+   - **API Key** — 你的 API 密钥
+   - **Model Mappings** — 可选的模型名称映射
+3. 点击 **Apply** 保存并应用配置
+4. **重启 Claude Code** 使配置生效
 
-## How It Works
+## 工作原理
 
-CC Model Switcher modifies Claude Code's settings file at `~/.claude/settings.json`:
+CC Model Switcher 会修改 Claude Code 的配置文件 `~/.claude/settings.json`：
 
 ```json
 {
@@ -60,19 +62,19 @@ CC Model Switcher modifies Claude Code's settings file at `~/.claude/settings.js
 }
 ```
 
-Your profiles are saved in `saved_configs.json` in the same directory as the script.
+你的配置保存在脚本同目录下的 `saved_configs.json` 文件中。
 
-## Security
+## 安全说明
 
-- API keys are stored locally in `saved_configs.json`
-- This file is in `.gitignore` and will not be committed
-- Keep this file secure and do not share it
-- A backup of `settings.json` is created before each change
+- API Key 存储在本地的 `saved_configs.json` 文件中
+- 该文件已加入 `.gitignore`，不会被提交到仓库
+- 请妥善保管此文件，不要分享给他人
+- 每次应用配置前会自动备份原有的 `settings.json`
 
-## License
+## 许可证
 
 [MIT](LICENSE)
 
-## Contributing
+## 贡献
 
-Issues and pull requests are welcome.
+欢迎提交 Issue 和 Pull Request。

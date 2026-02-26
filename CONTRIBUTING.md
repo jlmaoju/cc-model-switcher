@@ -1,39 +1,39 @@
-# Contributing
+# 贡献指南
 
-Thank you for your interest in contributing!
+感谢你有兴趣为本项目做出贡献！
 
-## How to Contribute
+## 如何贡献
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Test your changes
-5. Commit (`git commit -m 'Add amazing feature'`)
-6. Push (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/amazing-feature`)
+3. 进行修改
+4. 测试你的修改
+5. 提交 (`git commit -m 'Add amazing feature'`)
+6. 推送 (`git push origin feature/amazing-feature`)
+7. 创建 Pull Request
 
-## Development Setup
+## 开发环境
 
 ```bash
-# Clone your fork
-git clone https://github.com/jlmaoju/cc-model-switcher.git
+# 克隆你的 fork
+git clone https://github.com/your-username/cc-model-switcher.git
 cd cc-model-switcher
 
-# Run the app
+# 运行程序
 python api_switcher.py
 ```
 
-## Guidelines
+## 代码规范
 
-- Keep code simple and readable
-- Follow existing code style
-- Test on your platform before submitting
-- Update README if adding new features
+- 保持代码简洁易读
+- 遵循现有代码风格
+- 提交前在你的平台上测试
+- 如果添加新功能请更新 README
 
-## Reporting Issues
+## 问题反馈
 
-Please include:
-- Python version (`python --version`)
-- Operating system
-- Steps to reproduce
-- Expected vs actual behavior
+请在 Issue 中包含以下信息：
+- Python 版本 (`python --version`)
+- 操作系统
+- 复现步骤
+- 预期行为与实际行为

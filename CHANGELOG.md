@@ -1,14 +1,13 @@
-# Changelog
-
-All notable changes to this project will be documented in this file.
+# 更新日志
 
 ## [1.0.0] - 2024
 
-### Added
-- Initial release
-- Dark theme UI
-- Multiple profile support
-- Custom profile naming
-- Model mapping configuration
-- Auto backup of settings
-- Cross-platform support (Windows, macOS, Linux)
+### 新增
+- 首次发布
+- 深色主题界面
+- 多配置管理
+- 自定义配置命名
+- 模型映射配置
+- 自动备份设置
+- 跨平台支持（Windows、macOS、Linux）
+- 首次运行自动创建示例配置

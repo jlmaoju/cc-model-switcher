@@ -24,9 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/cc-model-switcher"
-Repository = "https://github.com/yourusername/cc-model-switcher"
-Issues = "https://github.com/yourusername/cc-model-switcher/issues"
+Homepage = "https://github.com/jlmaoju/cc-model-switcher"
+Repository = "https://github.com/jlmaoju/cc-model-switcher"
+Issues = "https://github.com/jlmaoju/cc-model-switcher/issues"
 
 [project.scripts]
 cc-model-switcher = "api_switcher:main"

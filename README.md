@@ -21,7 +21,7 @@ A minimal GUI tool for switching [Claude Code](https://docs.anthropic.com/en/doc
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cc-model-switcher.git
+git clone https://github.com/jlmaoju/cc-model-switcher.git
 cd cc-model-switcher
 
 # Run

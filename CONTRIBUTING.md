@@ -16,7 +16,7 @@ Thank you for your interest in contributing!
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/cc-model-switcher.git
+git clone https://github.com/jlmaoju/cc-model-switcher.git
 cd cc-model-switcher
 
 # Run the app

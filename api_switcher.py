@@ -162,8 +162,8 @@ class ModelSwitcherApp:
 
         # Window setup
         self.root.update_idletasks()
-        self.root.minsize(900, 640)
-        self.root.geometry("960x680")
+        self.root.minsize(900, 720)
+        self.root.geometry("960x780")
         self.center_window()
 
         # Select first profile or active
